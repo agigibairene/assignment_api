@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: #ffff;
+    text-align: left;
+}
+.container {
+    background-color: #ffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 50px 50px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0.5, 0, 0, 0.8);
+}
+
+.search-icon {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search-icon input {
+    padding: 0.5rem;
+    width: 70%;
+    font-size: 16px;
+    /*background-color: gray;*/
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #7c7c7c2b;
+}
+
+#search {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: black;
+    cursor: pointer;
+}
+
+.answer {
+    position: relative;
+}
+
+.answer h3{
+    font-size: 30px;
+}
+
+.words {
+    display: flex;
+    justify-content: start;
+    margin:  40px 60px 20px 2px;
+}
+
+.answer .explain{
+    display: block;
+    gap: 10px;
+    opacity: 20px;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+p{
+    opacity: 70%;
+    margin-right: 50px;
+}
+
+.examples {
+    font-style: italic;
+    margin-top: 20px;
+    padding-left: 20px ;
+}
+
+.examples span {
+    font-weight: bold;
+}
+
+
+
+
+
+
